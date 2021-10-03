@@ -8,5 +8,7 @@ function somar(a, b){
 //console.log(somar(2,5));
 
 document.querySelector("#calcular").addEventListener("click", function(){
-    alert("Olá mundo!");
+    let valorA = document.querySelector("valorA");
+    let valorB = document.querySelector("valorB");
+    alert(parseInt(valorA)+parseInt(valorB));
 });
