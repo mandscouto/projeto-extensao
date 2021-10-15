@@ -9,13 +9,24 @@
 </head>
 <body>
     <form method="POST" action="form.php">
-        <div>
+        <div class="form-group">
             <label for="nome">Nome</label>
             <input type="text" name="nome" id="nome" class="form-control" placeholder="Digite seu nome completo" required>
         </div>
-        <div>
+        <div class="form-group">
             <label for="email">email</label>
             <input type="text" name="email" id="email" class="form-control" placeholder="seu@email.com" required>
+        </div>
+        <div class="form-group">
+            <label for="date">Data de nascimento</label>
+            <input type="text" name="date" id="date" class="form-control" placeholder="dd/mm/aaaa" required min="2001-01-01" max="2021-10-01">
+        </div>
+        <div class="form-group">
+            <label>Sexo</label>
+            <input type="radio" name="masculino" id="masculino" class="form-control"  required>
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="feminino" id="feminino" class="form-control"  required>
+            <label for="feminino">Feminino</label>
         </div>
         <div>
             <button type="submit" class="btn btn-primary">Cadastrar</button>
