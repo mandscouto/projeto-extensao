@@ -8,12 +8,19 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-    <forms>
+    <form method="POST" action="form.php">
         <div>
             <label for="nome">Nome</label>
             <input type="text" name="nome" id="nome" class="form-control" placeholder="Digite seu nome completo" required>
         </div>
-    </forms>
+        <div>
+            <label for="email">email</label>
+            <input type="text" name="email" id="email" class="form-control" placeholder="seu@email.com" required>
+        </div>
+        <div>
+            <button type="submit">Cadastrar</button>
+        </div>
+    </form>
     <script type="text/javascript" src="JS/script.js"></script>
 </body>
 </html>
