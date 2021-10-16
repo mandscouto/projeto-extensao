@@ -43,6 +43,12 @@ body{
     background: white;
 }
 
+.conteudo-lateral{
+    background: #FFF;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
 #rodape{
     clear: both;
     text-align: center;
