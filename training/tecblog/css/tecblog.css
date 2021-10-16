@@ -86,7 +86,8 @@ h3{
 }
 
 .postagem-lateral{
-    font-size: small;
+    font-size: 0.8em;
+    padding: 5px;
 }
 /* Formatação dos menus */
 a{
