@@ -49,6 +49,12 @@ body{
     margin-bottom: 20px;
 }
 
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    /*border-bottom: 1px dotted #CCC ;*/
+}
+
 #rodape{
     clear: both;
     text-align: center;
@@ -85,10 +91,6 @@ h3{
     display: block;
 }
 
-.postagem-lateral{
-    font-size: 0.8em;
-    padding: 5px;
-}
 /* Formatação dos menus */
 a{
     text-decoration: none;
