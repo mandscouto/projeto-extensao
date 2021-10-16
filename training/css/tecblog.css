@@ -67,6 +67,12 @@ h2{
 color: #f7b600;
 }
 
+h3{
+    color: #565656;
+    background: #CCC;
+    padding: 5px;
+}
+
 .branco{
     color: white;
 }
@@ -79,6 +85,9 @@ color: #f7b600;
     display: block;
 }
 
+.postagem-lateral{
+    font-size: small;
+}
 /* Formatação dos menus */
 a{
     text-decoration: none;
