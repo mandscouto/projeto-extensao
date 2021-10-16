@@ -44,10 +44,10 @@ body{
 }
 
 #rodape{
-    background: gray;
     clear: both;
     text-align: center;
     padding: 15px;
+    background: gray;
 }
 
 /* Formatações em geral */
