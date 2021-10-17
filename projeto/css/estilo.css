@@ -14,12 +14,12 @@ footer p a{
 
 
 
-.nav-item a:link, .nav-item a:visited{ 
+#menu a:link, #menu a:visited{ 
     color: #FFF;
     padding: 8px 12px;
 }
 
-.nav-item a:hover{
+#menu a:hover{
     color: #f7b600;
     background: #FFF;
     text-decoration: none;
