@@ -15,12 +15,12 @@ footer p a{
 
 
 #menu a:link, #menu a:visited{ 
-    color: #FFF;
+    color: #DDFAEA;
     padding: 8px 12px;
 }
 
 #menu a:hover{
-    color: #f7b600;
-    background: #FFF;
+    color: #6C7C6C;
+    background: #DDFAEA;
     text-decoration: none;
 }
