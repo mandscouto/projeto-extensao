@@ -24,3 +24,86 @@ footer p a{
     background: #DDFAEA;
     text-decoration: none;
 }
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: whitesmoke;
+}
+
+/* Layout */
+
+
+#area-logo, #area-menu{
+    padding: 10px;
+}
+
+#area-principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-postagens{
+    width: 660px;
+    float: left;
+}
+
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+.conteudo-lateral{
+    background: #FFF;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    /*border-bottom: 1px dotted #CCC ;*/
+}
+
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #6C7C6C;
+}
+
+/* Formatações em geral */
+
+h1{
+    color: #6C7C6C;
+    font-size: 2.5em;
+}
+
+h2{
+color: #6C7C6C;
+}
+
+h3{
+    color: #6C7C6C;
+    background: #DDFAEA;
+    padding: 5px;
+}
+
+.branco{
+    color: white;
+}
+
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #DDFAEA;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
