@@ -127,8 +127,6 @@ h3{
     height: 100%;
     width: 100%;
     vertical-align: top;
-    opacity: 0;
-    visibility: hidden;
 }
 
 .slider input {
@@ -158,6 +156,10 @@ h3{
     left: 70px;
 }
 
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
 
 .slider li input:checked ~ img {
     opacity: 1;
