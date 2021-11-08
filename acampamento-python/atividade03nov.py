@@ -1,5 +1,3 @@
-import math
-
 n1 = int(input("nsira a nota alcançada na primeira avaliação: "))
 n2 = int(input("nsira a nota alcançada na segunda avaliação: "))
 n3 = int(input("nsira a nota alcançada na terceira avaliação: "))
