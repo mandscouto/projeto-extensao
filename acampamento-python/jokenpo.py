@@ -8,7 +8,7 @@ pontos_jog = 0
 print("Pedra, papel e tesoura\n\n")
 jog = ""
 
-while jog.lower() != "sair":
+while jog.lower() != "x":
     jog = input("Qual a sua jogada?")
     if jog in jogadas:
         pc = random.choice(jogadas)
@@ -39,5 +39,5 @@ while jog.lower() != "sair":
             pontos_pc = pontos_pc + 1
 
         print(f"\n\nVocê {pontos_jog} x {pontos_pc} Computador")
-    elif jog.lower() != "sair":
+    elif jog.lower() != "x":
         print(f"Escolha uma das opções: {jogadas}")
